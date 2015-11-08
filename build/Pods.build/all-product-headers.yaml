@@ -1,0 +1,119 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/catbaron/Src/CDInput/build/Release-iphonesimulator/Pods-CDInputMethod/SwiftSockets.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-CDInputMethod-SwiftSockets-umbrella.h",
+          'external-contents': "/Users/catbaron/Src/CDInput/Pods/Target Support Files/Pods-CDInputMethod-SwiftSockets/Pods-CDInputMethod-SwiftSockets-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftSockets-Swift.h",
+          'external-contents': "/Users/catbaron/Src/CDInput/build/Release-iphonesimulator/Pods-CDInputMethod/SwiftSockets.framework/Headers/SwiftSockets-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftSockets.h",
+          'external-contents': "/Users/catbaron/Src/CDInput/Pods/SwiftSockets/SwiftSockets/SwiftSockets.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/catbaron/Src/CDInput/build/Release-iphonesimulator/Pods-CDInputMethod/SwiftSockets.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/catbaron/Src/CDInput/build/Pods.build/Release-iphonesimulator/Pods-CDInputMethod-SwiftSockets.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/catbaron/Src/CDInput/build/Release-iphonesimulator/Pods-CDInputMethod/Swifter.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-CDInputMethod-Swifter-umbrella.h",
+          'external-contents': "/Users/catbaron/Src/CDInput/Pods/Target Support Files/Pods-CDInputMethod-Swifter/Pods-CDInputMethod-Swifter-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Swifter-Swift.h",
+          'external-contents': "/Users/catbaron/Src/CDInput/build/Release-iphonesimulator/Pods-CDInputMethod/Swifter.framework/Headers/Swifter-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/catbaron/Src/CDInput/build/Release-iphonesimulator/Pods-CDInputMethod/Swifter.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/catbaron/Src/CDInput/build/Pods.build/Release-iphonesimulator/Pods-CDInputMethod-Swifter.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/catbaron/Src/CDInput/build/Release-iphonesimulator/Pods-CDInputMethod/Taylor.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-CDInputMethod-Taylor-umbrella.h",
+          'external-contents': "/Users/catbaron/Src/CDInput/Pods/Target Support Files/Pods-CDInputMethod-Taylor/Pods-CDInputMethod-Taylor-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Taylor-Swift.h",
+          'external-contents': "/Users/catbaron/Src/CDInput/build/Release-iphonesimulator/Pods-CDInputMethod/Taylor.framework/Headers/Taylor-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/catbaron/Src/CDInput/build/Release-iphonesimulator/Pods-CDInputMethod/Taylor.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/catbaron/Src/CDInput/build/Pods.build/Release-iphonesimulator/Pods-CDInputMethod-Taylor.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/catbaron/Src/CDInput/build/Release-iphonesimulator/Pods_CDInputMethod.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-CDInputMethod-umbrella.h",
+          'external-contents': "/Users/catbaron/Src/CDInput/Pods/Target Support Files/Pods-CDInputMethod/Pods-CDInputMethod-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_CDInputMethod-Swift.h",
+          'external-contents': "/Users/catbaron/Src/CDInput/build/Release-iphonesimulator/Pods_CDInputMethod.framework/Headers/Pods_CDInputMethod-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/catbaron/Src/CDInput/build/Release-iphonesimulator/Pods_CDInputMethod.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/catbaron/Src/CDInput/build/Pods.build/Release-iphonesimulator/Pods-CDInputMethod.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

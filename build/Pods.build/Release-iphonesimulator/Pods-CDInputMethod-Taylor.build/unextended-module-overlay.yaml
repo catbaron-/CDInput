@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/catbaron/Src/CDInput/build/Release-iphonesimulator/Pods-CDInputMethod/Taylor.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/catbaron/Src/CDInput/build/Pods.build/Release-iphonesimulator/Pods-CDInputMethod-Taylor.build/unextended-module.modulemap',
+    }]
+  }]
+}

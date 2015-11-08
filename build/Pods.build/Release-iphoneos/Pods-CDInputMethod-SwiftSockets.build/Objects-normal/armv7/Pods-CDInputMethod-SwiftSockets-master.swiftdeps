@@ -1,0 +1,11 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "ecfa6c0f2462dba0078bbbc198935c81"
+build_time: [499844659, 552576000]
+inputs:
+  "/Users/catbaron/Src/CDInput/Pods/SwiftSockets/SwiftSockets/PassiveSocket.swift": [499844590, 0]
+  "/Users/catbaron/Src/CDInput/Pods/SwiftSockets/SwiftSockets/ActiveSocket.swift": [499844590, 0]
+  "/Users/catbaron/Src/CDInput/Pods/SwiftSockets/SwiftSockets/Socket.swift": [499844590, 0]
+  "/Users/catbaron/Src/CDInput/Pods/SwiftSockets/SwiftSockets/DNS.swift": [499844590, 0]
+  "/Users/catbaron/Src/CDInput/Pods/SwiftSockets/SwiftSockets/UnixUtils.swift": [499844590, 0]
+  "/Users/catbaron/Src/CDInput/Pods/SwiftSockets/SwiftSockets/SocketAddress.swift": [499844590, 0]
+  "/Users/catbaron/Src/CDInput/Pods/SwiftSockets/SwiftSockets/FileDescriptor.swift": [499844590, 0]

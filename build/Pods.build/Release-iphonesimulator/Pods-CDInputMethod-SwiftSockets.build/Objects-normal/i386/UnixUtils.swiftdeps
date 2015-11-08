@@ -1,0 +1,115 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ntohs"
+- "htons"
+- "IOC_OUT"
+- "FIONREAD"
+provides-nominal:
+provides-member:
+- ["PSo18OS_dispatch_source", ""]
+- ["PSo18OS_dispatch_source", "onEvent"]
+provides-dynamic-lookup:
+depends-top-level:
+- "|"
+- !private "+"
+- "CUnsignedLong"
+- "Void"
+- "IOCPARM_MASK"
+- !private "dispatch_source_set_event_handler"
+- !private ">>"
+- "IntegerLiteralType"
+- "FloatLiteralType"
+- "&"
+- "sizeof"
+- "dispatch_source_t"
+- "Int32"
+- "htons"
+- !private "dispatch_source_get_data"
+- "CUnsignedShort"
+- "IOC_OUT"
+- "FIONREAD"
+- "ntohs"
+- "<<"
+depends-member:
+- ["PSs22BidirectionalIndexType", "init"]
+- ["PSs21BitwiseOperationsType", "init"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs10Comparable", "init"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs9Equatable", "init"]
+- ["PSs16ForwardIndexType", "init"]
+- ["PSs8Hashable", "init"]
+- ["PSs21IntegerArithmeticType", "init"]
+- ["PSs25IntegerLiteralConvertible", "init"]
+- ["PSs11IntegerType", "init"]
+- ["PSo16NSObjectProtocol", "CUnsignedLong"]
+- ["PSo16NSObjectProtocol", "Void"]
+- !private ["PSo16NSObjectProtocol", "dispatch_source_get_data"]
+- !private ["PSo16NSObjectProtocol", "dispatch_source_set_event_handler"]
+- ["PSo16NSObjectProtocol", "dispatch_source_t"]
+- ["PSo18OS_dispatch_object", "CUnsignedLong"]
+- ["PSo18OS_dispatch_object", "Void"]
+- !private ["PSo18OS_dispatch_object", "dispatch_source_get_data"]
+- !private ["PSo18OS_dispatch_object", "dispatch_source_set_event_handler"]
+- ["PSo18OS_dispatch_object", "dispatch_source_t"]
+- ["PSo18OS_dispatch_source", "CUnsignedLong"]
+- ["PSo18OS_dispatch_source", "Void"]
+- !private ["PSo18OS_dispatch_source", "dispatch_source_get_data"]
+- !private ["PSo18OS_dispatch_source", "dispatch_source_set_event_handler"]
+- ["PSo18OS_dispatch_source", "dispatch_source_t"]
+- ["PSo18OS_dispatch_source", "onEvent"]
+- ["PSs21RandomAccessIndexType", "init"]
+- ["PSs10Strideable", "init"]
+- ["Su", "init"]
+- ["PSs19UnsignedIntegerType", "init"]
+- ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- ["PSs28_DisallowMixedSignArithmetic", "init"]
+- ["PSs14_Incrementable", "init"]
+- ["PSs22_IntegerArithmeticType", "init"]
+- ["PSs12_IntegerType", "init"]
+- ["PSs21_ObjectiveCBridgeable", "init"]
+- ["PSs22_RandomAccessAmbiguity", "init"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs11_Strideable", "init"]
+depends-nominal:
+- "PSs22BidirectionalIndexType"
+- "PSs21BitwiseOperationsType"
+- "PSs11CVarArgType"
+- "PSs10Comparable"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- "PSs21IntegerArithmeticType"
+- "PSs25IntegerLiteralConvertible"
+- "PSs11IntegerType"
+- "PSo16NSObjectProtocol"
+- "PSo18OS_dispatch_object"
+- "PSo18OS_dispatch_source"
+- "PSs21RandomAccessIndexType"
+- "PSs10Strideable"
+- "Su"
+- "PSs19UnsignedIntegerType"
+- "PSs33_BuiltinIntegerLiteralConvertible"
+- "PSs28_DisallowMixedSignArithmetic"
+- "PSs14_Incrementable"
+- "PSs22_IntegerArithmeticType"
+- "PSs12_IntegerType"
+- "PSs21_ObjectiveCBridgeable"
+- "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Users/catbaron/Src/CDInput/Pods/SwiftSockets/SwiftSockets/SwiftSockets.h"
+- "/Users/catbaron/Src/CDInput/Pods/Target Support Files/Pods-CDInputMethod-SwiftSockets/Pods-CDInputMethod-SwiftSockets-umbrella.h"
+- "/Users/catbaron/Src/CDInput/build/Pods.build/Release-iphonesimulator/Pods-CDInputMethod-SwiftSockets.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+interface-hash: "2954450d880794551a05acfd8e2cd1d4"

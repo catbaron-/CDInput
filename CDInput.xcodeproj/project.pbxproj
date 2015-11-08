@@ -12,9 +12,40 @@
 		076F277A1BE5B5760091003D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076F27781BE5B5760091003D /* Main.storyboard */; };
 		076F277C1BE5B5760091003D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 076F277B1BE5B5760091003D /* Assets.xcassets */; };
 		076F277F1BE5B5760091003D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076F277D1BE5B5760091003D /* LaunchScreen.storyboard */; };
+		076F278D1BE5B5A50091003D /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076F278C1BE5B5A50091003D /* KeyboardViewController.swift */; };
+		076F27911BE5B5A50091003D /* CDInputMethod.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 076F278A1BE5B5A50091003D /* CDInputMethod.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		07AB59F01BE5E424006ED600 /* tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AB59EF1BE5E424006ED600 /* tools.swift */; };
+		07AB59F21BE5EFA9006ED600 /* input.html in Resources */ = {isa = PBXBuildFile; fileRef = 07AB59F11BE5EFA9006ED600 /* input.html */; };
+		2496BDBFDD006194735276F7 /* Pods_CDInput.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EFF995CD77253131F2F99AC /* Pods_CDInput.framework */; };
+		525038C580AE9FBA049CBBCC /* Pods_CDInputMethod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7932E9B26C8D07CB47E5B260 /* Pods_CDInputMethod.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		076F278F1BE5B5A50091003D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 076F27691BE5B5760091003D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 076F27891BE5B5A50091003D;
+			remoteInfo = CDInputMethod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		076F27951BE5B5A50091003D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				076F27911BE5B5A50091003D /* CDInputMethod.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		04668A67EE1322C3593AF502 /* Pods-CDInputMethod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDInputMethod.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDInputMethod/Pods-CDInputMethod.debug.xcconfig"; sourceTree = "<group>"; };
 		076F27711BE5B5760091003D /* CDInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		076F27741BE5B5760091003D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		076F27761BE5B5760091003D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +53,18 @@
 		076F277B1BE5B5760091003D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		076F277E1BE5B5760091003D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		076F27801BE5B5760091003D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		076F278A1BE5B5A50091003D /* CDInputMethod.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CDInputMethod.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		076F278C1BE5B5A50091003D /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		076F278E1BE5B5A50091003D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07AB59EF1BE5E424006ED600 /* tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tools.swift; sourceTree = "<group>"; };
+		07AB59F11BE5EFA9006ED600 /* input.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = input.html; sourceTree = "<group>"; };
+		07AB59F31BE5F8CE006ED600 /* bridge_header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bridge_header.h; sourceTree = "<group>"; };
+		07AB59F61BE5F984006ED600 /* CDInputMethod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = CDInputMethod.entitlements; sourceTree = "<group>"; };
+		3EFF995CD77253131F2F99AC /* Pods_CDInput.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDInput.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7932E9B26C8D07CB47E5B260 /* Pods_CDInputMethod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CDInputMethod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6051536E432CA5282CEE13 /* Pods-CDInputMethod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDInputMethod.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDInputMethod/Pods-CDInputMethod.release.xcconfig"; sourceTree = "<group>"; };
+		F669AED1D0C807C1FE8CD3A9 /* Pods-CDInput.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDInput.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CDInput/Pods-CDInput.debug.xcconfig"; sourceTree = "<group>"; };
+		F9E517D8E61D742A39A56866 /* Pods-CDInput.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDInput.release.xcconfig"; path = "Pods/Target Support Files/Pods-CDInput/Pods-CDInput.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +72,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2496BDBFDD006194735276F7 /* Pods_CDInput.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		076F27871BE5B5A50091003D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525038C580AE9FBA049CBBCC /* Pods_CDInputMethod.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +90,12 @@
 		076F27681BE5B5760091003D = {
 			isa = PBXGroup;
 			children = (
+				07AB59EC1BE5D490006ED600 /* Resources */,
 				076F27731BE5B5760091003D /* CDInput */,
+				076F278B1BE5B5A50091003D /* CDInputMethod */,
 				076F27721BE5B5760091003D /* Products */,
+				85C2910CA2E0E5A0A202D293 /* Pods */,
+				7787B9B24224E95B82E454BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				076F27711BE5B5760091003D /* CDInput.app */,
+				076F278A1BE5B5A50091003D /* CDInputMethod.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +121,46 @@
 			path = CDInput;
 			sourceTree = "<group>";
 		};
+		076F278B1BE5B5A50091003D /* CDInputMethod */ = {
+			isa = PBXGroup;
+			children = (
+				07AB59F61BE5F984006ED600 /* CDInputMethod.entitlements */,
+				076F278C1BE5B5A50091003D /* KeyboardViewController.swift */,
+				07AB59F31BE5F8CE006ED600 /* bridge_header.h */,
+				076F278E1BE5B5A50091003D /* Info.plist */,
+				07AB59EF1BE5E424006ED600 /* tools.swift */,
+			);
+			path = CDInputMethod;
+			sourceTree = "<group>";
+		};
+		07AB59EC1BE5D490006ED600 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				07AB59F11BE5EFA9006ED600 /* input.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7787B9B24224E95B82E454BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7932E9B26C8D07CB47E5B260 /* Pods_CDInputMethod.framework */,
+				3EFF995CD77253131F2F99AC /* Pods_CDInput.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85C2910CA2E0E5A0A202D293 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04668A67EE1322C3593AF502 /* Pods-CDInputMethod.debug.xcconfig */,
+				EC6051536E432CA5282CEE13 /* Pods-CDInputMethod.release.xcconfig */,
+				F669AED1D0C807C1FE8CD3A9 /* Pods-CDInput.debug.xcconfig */,
+				F9E517D8E61D742A39A56866 /* Pods-CDInput.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,18 +168,43 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 076F27831BE5B5760091003D /* Build configuration list for PBXNativeTarget "CDInput" */;
 			buildPhases = (
+				AC8B472627A5AC2A9A80254C /* Check Pods Manifest.lock */,
 				076F276D1BE5B5760091003D /* Sources */,
 				076F276E1BE5B5760091003D /* Frameworks */,
 				076F276F1BE5B5760091003D /* Resources */,
+				076F27951BE5B5A50091003D /* Embed App Extensions */,
+				A747CBDA834798E8D87E9404 /* Embed Pods Frameworks */,
+				784D8E22B7F4F68ECC58FE96 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				076F27901BE5B5A50091003D /* PBXTargetDependency */,
 			);
 			name = CDInput;
 			productName = CDInput;
 			productReference = 076F27711BE5B5760091003D /* CDInput.app */;
 			productType = "com.apple.product-type.application";
+		};
+		076F27891BE5B5A50091003D /* CDInputMethod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 076F27921BE5B5A50091003D /* Build configuration list for PBXNativeTarget "CDInputMethod" */;
+			buildPhases = (
+				3022E301418353DF380F23E3 /* Check Pods Manifest.lock */,
+				076F27861BE5B5A50091003D /* Sources */,
+				076F27871BE5B5A50091003D /* Frameworks */,
+				076F27881BE5B5A50091003D /* Resources */,
+				F1988E69415A69D5496B5282 /* Embed Pods Frameworks */,
+				093B3B793A16C53C9F7D5C52 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDInputMethod;
+			productName = CDInputMethod;
+			productReference = 076F278A1BE5B5A50091003D /* CDInputMethod.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,6 +219,15 @@
 					076F27701BE5B5760091003D = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = 65B8CU243A;
+					};
+					076F27891BE5B5A50091003D = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 65B8CU243A;
+						SystemCapabilities = {
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -114,6 +245,7 @@
 			projectRoot = "";
 			targets = (
 				076F27701BE5B5760091003D /* CDInput */,
+				076F27891BE5B5A50091003D /* CDInputMethod */,
 			);
 		};
 /* End PBXProject section */
@@ -129,7 +261,108 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		076F27881BE5B5A50091003D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AB59F21BE5EFA9006ED600 /* input.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		093B3B793A16C53C9F7D5C52 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDInputMethod/Pods-CDInputMethod-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3022E301418353DF380F23E3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		784D8E22B7F4F68ECC58FE96 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDInput/Pods-CDInput-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A747CBDA834798E8D87E9404 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDInput/Pods-CDInput-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC8B472627A5AC2A9A80254C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1988E69415A69D5496B5282 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CDInputMethod/Pods-CDInputMethod-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		076F276D1BE5B5760091003D /* Sources */ = {
@@ -141,7 +374,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		076F27861BE5B5A50091003D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07AB59F01BE5E424006ED600 /* tools.swift in Sources */,
+				076F278D1BE5B5A50091003D /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		076F27901BE5B5A50091003D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 076F27891BE5B5A50091003D /* CDInputMethod */;
+			targetProxy = 076F278F1BE5B5A50091003D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		076F27781BE5B5760091003D /* Main.storyboard */ = {
@@ -248,8 +498,10 @@
 		};
 		076F27841BE5B5760091003D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F669AED1D0C807C1FE8CD3A9 /* Pods-CDInput.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = CDInput/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = info.catbaron.CDInput;
@@ -259,12 +511,46 @@
 		};
 		076F27851BE5B5760091003D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9E517D8E61D742A39A56866 /* Pods-CDInput.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = CDInput/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = info.catbaron.CDInput;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		076F27931BE5B5A50091003D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04668A67EE1322C3593AF502 /* Pods-CDInputMethod.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CDInputMethod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.catbaron.CDInput.CDInputMethod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = CDInputMethod/bridge_header.h;
+			};
+			name = Debug;
+		};
+		076F27941BE5B5A50091003D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC6051536E432CA5282CEE13 /* Pods-CDInputMethod.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CDInputMethod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.catbaron.CDInput.CDInputMethod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = CDInputMethod/bridge_header.h;
 			};
 			name = Release;
 		};
@@ -287,6 +573,16 @@
 				076F27851BE5B5760091003D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		076F27921BE5B5A50091003D /* Build configuration list for PBXNativeTarget "CDInputMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076F27931BE5B5A50091003D /* Debug */,
+				076F27941BE5B5A50091003D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

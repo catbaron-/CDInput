@@ -1,0 +1,36 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HttpRequest"
+provides-nominal:
+- "V7Swifter11HttpRequest"
+provides-member:
+- ["V7Swifter11HttpRequest", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "HttpRequest"
+- "String"
+depends-member:
+- ["V7Swifter11HttpRequest", "String"]
+- ["V7Swifter11HttpRequest", "address"]
+- ["V7Swifter11HttpRequest", "body"]
+- ["V7Swifter11HttpRequest", "capturedUrlGroups"]
+- ["V7Swifter11HttpRequest", "headers"]
+- ["V7Swifter11HttpRequest", "init"]
+- ["V7Swifter11HttpRequest", "method"]
+- ["V7Swifter11HttpRequest", "url"]
+- ["V7Swifter11HttpRequest", "urlParams"]
+depends-nominal:
+- "V7Swifter11HttpRequest"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/catbaron/Src/CDInput/Pods/Target Support Files/Pods-CDInputMethod-Swifter/Pods-CDInputMethod-Swifter-umbrella.h"
+- "/Users/catbaron/Src/CDInput/build/Pods.build/Release-iphonesimulator/Pods-CDInputMethod-Swifter.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "a77657720f447b2c3674c700f763eb33"

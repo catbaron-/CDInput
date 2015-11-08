@@ -1,0 +1,13 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "6477e910a5fedb38a4f98fe87f531b81"
+build_time: [499844675, 243009000]
+inputs:
+  "/Users/catbaron/Src/CDInput/Pods/Taylor/Taylor/Response.swift": [499844590, 0]
+  "/Users/catbaron/Src/CDInput/Pods/Taylor/Taylor/FileTypes.swift": [499844590, 0]
+  "/Users/catbaron/Src/CDInput/Pods/Taylor/Taylor/stdext.swift": [499844590, 0]
+  "/Users/catbaron/Src/CDInput/Pods/Taylor/Taylor/Middleware.swift": [499844590, 0]
+  "/Users/catbaron/Src/CDInput/Pods/Taylor/Taylor/Taylor.swift": [499844590, 0]
+  "/Users/catbaron/Src/CDInput/Pods/Taylor/Taylor/Socket.swift": [499844590, 0]
+  "/Users/catbaron/Src/CDInput/Pods/Taylor/Taylor/Route.swift": [499844590, 0]
+  "/Users/catbaron/Src/CDInput/Pods/Taylor/Taylor/Request.swift": [499844590, 0]
+  "/Users/catbaron/Src/CDInput/Pods/Taylor/Taylor/Router.swift": [499844590, 0]

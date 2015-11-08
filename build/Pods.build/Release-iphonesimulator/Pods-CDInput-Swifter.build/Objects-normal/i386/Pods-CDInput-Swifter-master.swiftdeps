@@ -1,0 +1,11 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "fb99271995d295fc36705ea1d029dd83"
+build_time: [499844627, 429106000]
+inputs:
+  "/Users/catbaron/Src/CDInput/Pods/Swifter/Common/HttpHandlers.swift": [499662356, 0]
+  "/Users/catbaron/Src/CDInput/Pods/Swifter/Common/HttpServer.swift": [499783237, 0]
+  "/Users/catbaron/Src/CDInput/Pods/Swifter/Common/HttpResponse.swift": [499662356, 0]
+  "/Users/catbaron/Src/CDInput/Pods/Swifter/Common/HttpParser.swift": [499662356, 0]
+  "/Users/catbaron/Src/CDInput/Pods/Swifter/Common/Socket.swift": [499662356, 0]
+  "/Users/catbaron/Src/CDInput/Pods/Swifter/Common/DemoServer.swift": [499662356, 0]
+  "/Users/catbaron/Src/CDInput/Pods/Swifter/Common/HttpRequest.swift": [499662356, 0]

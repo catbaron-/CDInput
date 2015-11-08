@@ -1,0 +1,6 @@
+framework module Pods_CDInput {
+  umbrella header "Pods-CDInput-umbrella.h"
+
+  export *
+  module * { export * }
+}

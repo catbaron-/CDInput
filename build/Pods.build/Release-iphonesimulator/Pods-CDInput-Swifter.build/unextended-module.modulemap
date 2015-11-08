@@ -1,0 +1,10 @@
+framework module Swifter {
+  umbrella header "Pods-CDInput-Swifter-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Swifter.__Swift {
+    exclude header "Swifter-Swift.h"
+}
